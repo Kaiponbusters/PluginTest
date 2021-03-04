@@ -12,3 +12,7 @@ commands:
     usage: "/<command> [Player]"
     description: "Get Player's head"
     permission: minecraft.command.give
+
+  dice:
+    usage: "/<command> [Max] [Count]"
+    description: "KoroKoro Korogaru Saikoro"
