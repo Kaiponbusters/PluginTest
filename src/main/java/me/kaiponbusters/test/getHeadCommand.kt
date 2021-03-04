@@ -13,7 +13,7 @@ import org.bukkit.entity.Player
 object GetHeadCommand: CommandExecutor {
     override fun onCommand(sender: CommandSender, command: Command, label: String, args: Array<out String>): Boolean {
         if (sender is Player) {
-            if (0 < args.size) {
+            if (args.isNotEmpty()) {
                 val id = args[0]
                 val player = Bukkit.getOfflinePlayer(id)
                 val head = getPlayerHead(player)
