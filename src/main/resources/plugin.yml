@@ -1,0 +1,14 @@
+name: Test
+version: 1.0
+main: me.kaiponbusters.test.Main
+api-version: 1.16
+author: kaipon3929
+commands:
+  hello:
+    usage: "/<command>"
+    description: "youcanaisatu"
+
+  head:
+    usage: "/<command> [Player]"
+    description: "Get Player's head"
+    permission: minecraft.command.give
